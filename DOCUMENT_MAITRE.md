@@ -38,6 +38,6 @@ Préparer le projet pour publication dans `kinowill/petite-barre` et permettre l
 
 | État | Valeur |
 | --- | --- |
-| Dépôt modifié | Oui, code et documentation validés localement ; publication en attente |
-| Production alignée | Non vérifiée |
+| Dépôt modifié | Oui, code et documentation publiés sur `main` |
+| Production alignée | Dépôt GitHub `main` aligné sur le commit local ; aucune installation utilisateur ou distribution distincte vérifiée |
 | Validation réelle effectuée | Oui, ouverture de la barre, liste locale et génération avec `qwen3.5:2b` ; sélection manuelle dans la fenêtre non vérifiée |
