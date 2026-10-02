@@ -1,5 +1,7 @@
 # Petite Barre
 
+<img src="assets/petite-barre-icon.png" width="96" alt="Icône Petite Barre : une petite bulle turquoise et une étincelle sur fond anthracite">
+
 Une petite barre d'assistant local pour Windows, écrite en Python/Tkinter. Elle envoie les conversations à Ollama sur ce PC, affiche la réponse en flux et conserve l'historique localement.
 
 ## Installation
@@ -22,6 +24,15 @@ La barre utilise l'API locale Ollama sur `127.0.0.1:11434`. Elle ne nécessite a
 - Appuyer sur Échap pour arrêter une réponse en cours.
 
 L'historique et les réglages sont stockés dans le dossier applicatif local `HauhauMini` de Windows. Les images jointes ne sont pas écrites dans l'historique : seuls leurs noms y figurent. L'application n'a pas de fonction de recherche Internet.
+
+## Icône
+
+Une icône originale représente la barre de conversation avec un assistant : une bulle turquoise et une étincelle sur fond anthracite.
+
+- `assets/petite-barre-icon.png` : visuel avec fond transparent.
+- `assets/petite-barre-icon.ico` : icône Windows, disponible de 16 à 256 pixels.
+
+Pour un raccourci Windows : clic droit sur le raccourci → **Propriétés** → **Changer d'icône**, puis sélectionner le fichier `.ico`.
 
 ## Vérification
 
